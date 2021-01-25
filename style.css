@@ -1,0 +1,81 @@
+:root {
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+    --Dark-gray: hsl(0, 0%, 59%);
+}
+
+.body {
+    width: 1440px;
+
+}
+
+.container {
+    display: flex;
+    background: var(--Dark-cyan);
+    font-family: 'Kumbh Sans', sans-serif;
+    overflow: hidden;
+    height: 720px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+p {
+    font-weight: 400;
+    color: var(--Dark-grayish-blue);
+}
+
+.background {
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.top {
+
+}
+
+.bottom {
+    transform: translateX(50px);
+    transform: translateY(350px);
+} 
+
+.card {
+    position: absolute;
+    margin: 50px;
+    width: 20%;
+    background: white;
+    border-radius: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 140px;
+}
+
+.bottom-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.picture {
+    text-align: center;
+
+}
+
+.picture img {
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.center-box {
+    display: inline-flex;
+
+}
