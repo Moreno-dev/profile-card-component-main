@@ -12,6 +12,7 @@
 
 body {
     width: 100vw;
+    height: 100%;
 }
 
 .container {
@@ -23,7 +24,9 @@ body {
     height: 720px;
     align-items: center;
     width: 100vw;
+    height: 100%;
     position: relative;
+    z-index: 2;
 }
 
 h1 {
@@ -41,6 +44,7 @@ p {
     width: 100%;
     justify-content: space-between;
     position: absolute;
+    z-index: -1;
 }
 
 .top {
@@ -52,8 +56,16 @@ p {
     transform: translateY(40%);
 }
 
-.card {
+.cards {
+    display: flex;
+    justify-content: space-evenly;
     position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.card {
+    position: relative;
     min-width: 300px;
     width: 20%;
     background: white;
@@ -62,6 +74,7 @@ p {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .card--Background {
