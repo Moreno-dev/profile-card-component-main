@@ -54,6 +54,7 @@ p {
 
 .card {
     position: absolute;
+    min-width: 300px;
     width: 20%;
     background: white;
     border-radius: 20px;
