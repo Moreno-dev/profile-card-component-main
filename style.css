@@ -12,10 +12,12 @@
 
 .container {
     display: flex;
+    justify-content: center;
     background: var(--Dark-cyan);
     font-family: 'Kumbh Sans', sans-serif;
     overflow: hidden;
     height: 720px;
+    align-items: center;
 }
 
 h1 {
