@@ -68,7 +68,8 @@ p {
     position: relative;
     min-width: 300px;
     width: 20%;
-    background: white;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.75));
+    backdrop-filter: blur(3px) ;
     border-radius: 20px;
     text-align: center;
     overflow: hidden;
